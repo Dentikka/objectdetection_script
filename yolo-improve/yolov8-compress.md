@@ -62,9 +62,9 @@
 | model | Parameters (M) | GFLOPs | mAP50 | GPU TRT Inference Time(bs:1) | CPU ONNX Inference Time(bs:1) |
 | :----: | :----: | :----: | :----: | :----: | :----: |
 | Baseline | 11.1 | 28.4 | 0.670 | 12.8ms | 1793.4ms |
-| LAMP | 2.2(19.8%) | 12.5 (44.0%) | 0.591(-0.079) | 8.0ms(62.5%) | 1193.0ms(66.5%) |
-| DepGraph | 5.5(49.5%) | 12.4(43.6%) | 0.546(-0.124) | 8.0ms(62.5%) | 641.1ms(35,7%) |
-| Hessian | 4.8(43.2%) | 13.9(48.9%) | 0.613(-0.057) | 8.3ms(64.8%) | 667.2ms(37.2%) | 
+| LAMP | **2.2(19.8%)** | 12.5 (44.0%) | 0.591(-0.079) | **8.0ms(62.5%)** | 1193.0ms(66.5%) |
+| DepGraph | 5.5(49.5%) | **12.4(43.6%)** | 0.546(-0.124) | **8.0ms(62.5%)** | **641.1ms(35,7%)** |
+| Hessian | 4.8(43.2%) | 13.9(48.9%) | **0.613(-0.057)** | 8.3ms(64.8%) | 667.2ms(37.2%) | 
 
 #### Dataset:Seaship BaseLine:Yolov8n Light:yolov8-BIFPN-EfficientRepHead.yaml(C2f-EMBC,BIFPN,EfficientRepHead)
 | model | Parameters | GFLOPs | Model Size | mAP50 | mAP50-95 | Inference Time(bs:32) |
